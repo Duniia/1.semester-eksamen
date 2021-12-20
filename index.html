@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Forside</title>
+  </head>
+
+  <body>
+    <!-- Navigationsbar -->
+    <header class="header">
+      <div id="cover">
+    <nav class="mainnav">
+      <a href="index.html" class="logo"
+        ><img src="img/logo.png" alt="logo amo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <label for="btn" class="icon">
+        </label>
+        <input type="checkbox" name="" id="btn" />
+        <ul>
+          <li>
+            <label for="btn-2" class="show">Opskrifter +</label>
+            <a href="opskrifter.html">Opskrifter</a>
+            <input type="checkbox" id="btn-2" />
+            <ul>
+              <li><a href="opskrifter.html">Opskrifter</a></li>
+              <!-- <li><a href="indkøb.html">Indkøbsliste</a></li> -->
+            </ul>
+          </li>         
+           <li><a href="nyevarer.html">Nye varer</a></li>
+          <li>
+            <label for="btn-1" class="show">Aktiviteter +</label>
+            <a href="#">Aktiviteter</a>
+            <input type="checkbox" id="btn-1" />
+            <ul>
+              <li><a href="forum.html">Forum</a></li>
+              <li><a href="konkurrence.html">Konkurrence</a></li>
+              <li><a href="events.html">Events</a></li>
+            </ul>
+          </li>
+        
+          <li><a href="omos.html">Om os</a></li>
+            <button class="btn" id="login">Log på</button>
+        
+        </ul>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+      </div>
+      
+    </nav>
+    
+    <!-- Denne bevægen pil er fundet på https://codepen.io/postor/pen/mskxI lavet af junjun   -->
+    <svg class="arrows">
+      <path class="a1" d="M0 0 L30 32 L60 0"></path>
+      <path class="a2" d="M0 20 L30 52 L60 20"></path>
+      <path class="a3" d="M0 40 L30 72 L60 40"></path>
+    </svg>      
+  </div>
+  </header>
+
+      <div class="text-box">
+        <h1>Velkommen til Amo nyt!</h1>
+        <a href="konkurrence.html" class="hero-btn">Konkurrence</a>
+      </div>
+
+  <main>
+<section class="nyt">
+  <h1><br> De nye frosne varer</h1>
+  <p>Når det skal være hurtigt og nemt!</p>
+
+         <div class="row">
+<div class="nyt-col">
+  <img src="img/pølse.png">
+  <h3>Pølsehorn</h3>
+  <p>Vores nye pølsehorn, varm dem op i ovnen også er de klar til madpakken eller som en hurtig snack!.</p>
+</div>
+
+<div class="nyt-col">
+  <img src="img/boller.png">
+  <h3>Boller</h3>
+  <p>Vores brød er bagt i stenovn, kom de frosne boller i ovn og nyd dem.</p>
+</div>
+
+<div class="nyt-col">
+  <img src="img/kanel.png">
+  <h3>Kanelsnegl</h3>
+  <p>Er du lækker sulten, kan du nemt varme disse færdig bagte kanelsnegle!.</p>
+</div>
+  </div> 
+
+  </div>
+
+</section>
+
+<!------- Forum indlæg --------->
+
+<section class="forum">
+  <h1> Det bliver der snakket om i forum!</h1>
+  <p>Klik og deltag i samtalen eller start et nyt emne op!.</p>
+ 
+  <div class="row">
+    <div class="forum-col">
+      <img src="img/forum1.png" alt="">
+      <div>
+        <a href="forum.html">
+          <h3>Den bedste chokoladekage</h3></a>
+<p>Her får i min opskrift, til den bedste chokoladekage ….. Aenean
+          vehicula varius quam, maximus tincidunt libero ullamcorper luctus.
+        </p>
+        <i class="material-icons">visibility <h6>31</h6></i> 
+        <i class="material-icons">forum <h6>64</h6></i>
+
+      </div>
+    </div>
+
+    <div class="forum-col">
+      <img src="img/forum2.png">
+      <div>    
+        <a href="forum.html">
+          <h3>Fødselsdags bollerm hvor mange?</h3>  </a>
+        <p>Jeg får besøg af familien i weekenden i anledning af ... Aenean
+          vehicula varius quam, maximus tincidunt libero ullamcorper luctus.
+        </p>
+        <i class="material-icons">visibility <h6>24</h6></i> 
+        <i class="material-icons">forum <h6>47</h6></i>
+
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!---------- FOOTER -------------->
+
+<footer>
+  <section class="footer">   
+    <div class="container">
+    <div class="row">
+      
+      <div class="footer-col">
+        <h4>Hjælp og kontakt</h4>
+        <ul>
+          <li><a href="https://www.amo.dk/om-amo/">Om os</a></li>
+          <li><a href="#/">Kontakt</a></li>
+          <li><a href="#">Opskrifter</a></li>
+          <li><a href="#">Nye varer</a></li>
+          <li><a href="https://www.amo.dk/produkter/">Vores produkter</a></li>
+          <li><a href="https://www.amo.dk/lantmannens-databeskyttelsespolitik/">Databeskyttelsespolitik</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <!-- <h4>Siden 1928</h4> -->
+        <ul>
+          <li><a href="index.html"><img src="img/logo.png" width="100" height="70"> </a></li>
+        </ul>
+        <p>© Lavet af Dunia Ahmed Ali 2021</p>
+      </div>      
+
+      <div class="footer-col">
+        <h4>Følg os</h4>
+        <div class="social-links">
+          <a href="https://www.facebook.com/amodanmark/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/amodanmark/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCEUGJSdy4DRrLeApDk18wtw"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.amo.dk/"><i class="fab fa-chrome"></i></a>
+          </div>
+    </div>  
+    </div>
+    </section>
+
+</footer>
+
+    <!-- Javascript til mobil menuen (toggle menu) -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+
+  </body>
+</html>

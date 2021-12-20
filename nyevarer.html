@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Nye varer</title>
+
+  </head>
+<header>
+  <body>
+<!-- Navigationsbar -->
+<header>
+    <nav class="subnav">
+      <a href="index.html" class="logo"
+        ><img src="img/logo.png" alt="logo amo"></a>
+        <label for="btn" class="icon">
+          <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" name="" id="btn" />
+        <ul>
+          <li>
+            <label for="btn-2" class="show">Opskrifter +</label>
+            <a href="opskrifter.html">Opskrifter</a>
+            <input type="checkbox" id="btn-2" />
+            <ul>
+              <li><a href="opskrifter.html">Opskrifter</a></li>
+              <li><a href="indkøb.html">Indkøbsliste</a></li>
+            </ul>
+          </li>         
+           <li><a href="nyevarer.html">Nye varer</a></li>
+          <li>
+            <label for="btn-1" class="show">Aktiviteter +</label>
+            <a href="#">Aktiviteter</a>
+            <input type="checkbox" id="btn-1" />
+            <ul>
+              <li><a href="forum.html">Forum</a></li>
+              <li><a href="konkurrence.html">Konkurrence</a></li>
+              <li><a href="events.html">Events</a></li>
+            </ul>
+          </li>
+          <li><a href="omos.html">Om os</a></li>
+        </ul>
+      </div>
+        </nav>
+  
+  </header>
+<main>
+
+      <!------ NYE VARER ------->
+      <section class="nyt">
+        <h1> De nye hvedemel</h1>
+        <p>Er du studerende, kan du spare op til 25% på vores nye varer!</p>
+      
+        <div class="row">
+      <div class="nyt-col">
+        <img src="img/2kg.png">
+        <h3>2 kg hvedemel</h3>
+        <p>Den traditionelle størrelse, er stadig på hylderne.</p>
+      </div>
+      
+      <div class="nyt-col">
+        <img src="img/1kg.png">
+        <h3>1 kg hvedemel</h3>
+        <p>Denne 1 kg pakke er til de der bager nogle gange.</p>
+      </div>
+      
+      <div class="nyt-col">
+        <img src="img/½kg.png">
+        <h3>½ kg hvedemel</h3>
+        <p>Denne ½ kg pakke er til de der bager i ny og næ! .</p>
+      </div>
+        </div>
+
+        <h1><br> De nye frosne varer</h1>
+        <p>Når det skal være hurtigt og nemt!</p>
+
+
+
+               <div class="row">
+      <div class="nyt-col">
+        <img src="img/pølse.png">
+        <h3>Pølsehorn</h3>
+        <p>Vores nye pølsehorn, varm dem op i ovnen også er de klar til madpakken eller som en hurtig snack!.</p>
+      </div>
+      
+      <div class="nyt-col">
+        <img src="img/boller.png">
+        <h3>Boller</h3>
+        <p>Vores brød er bagt i stenovn, kom de frosne boller i ovn og nyd dem.</p>
+      </div>
+      
+      <div class="nyt-col">
+        <img src="img/kanel.png">
+        <h3>Kanelsnegl</h3>
+        <p>Er du lækker sulten, kan du nemt varme disse færdig bagte kanelsnegle!.</p>
+      </div>
+        </div> 
+      
+      </section>
+
+</main>
+
+
+<!---------- FOOTER -------------->
+
+<footer>
+  <section class="footer">   
+    <div class="container">
+    <div class="row">
+      
+      <div class="footer-col">
+        <h4>Hjælp og kontakt</h4>
+        <ul>
+          <li><a href="https://www.amo.dk/om-amo/">Om os</a></li>
+          <li><a href="#/">Kontakt</a></li>
+          <li><a href="#">Opskrifter</a></li>
+          <li><a href="#">Nye varer</a></li>
+          <li><a href="https://www.amo.dk/produkter/">Vores produkter</a></li>
+          <li><a href="https://www.amo.dk/lantmannens-databeskyttelsespolitik/">Databeskyttelsespolitik</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <ul>
+          <li><a href="index.html"><img src="img/logo.png" width="100" height="70"> </a></li>
+          <p>© Lavet af Dunia Ahmed Ali 2021</p>
+        </ul>
+      </div>      
+
+  
+      <div class="footer-col">
+        <h4>Følg os</h4>
+        <div class="social-links">
+          <a href="https://www.facebook.com/amodanmark/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/amodanmark/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCEUGJSdy4DRrLeApDk18wtw"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.amo.dk/"><i class="fab fa-chrome"></i></a>
+          </div>
+    </div>  
+    </div>
+    </section>
+
+</footer>
+
+    <!-- Javascript til mobil menuen (toggle menu) -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+
+  </body>
+</html>
